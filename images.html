@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Insertion Example</title>
+    </head>
+    
+    <body>
+        <div>
+            <h1>Inserting  Images into HTML</h1>
+            <!--Example 1: Inserting an Image with Relative Path-->
+            <h2>Example 1: Relative Path</h2>
+            <p>This example shows how to insert an image using the relative path of image.</p>
+            <!--The image is located in the same directory as the HTML file-->
+            <img  src="breakfast.jpg" alt="My breakfast for today">
+
+            <!--Example 2: Inserting an Image with Absolute Path-->
+            <h2>Example 1: Absolute Path</h2>
+            <p>This example shows how to insert an image using the absolute path of image.</p>
+            <!--The image is located in the different directory as the HTML file-->
+            <a target="_blank" href="https://www.bitesofberi.com/wp-content/uploads/2021/08/chicken-yaki-udon-1-768x1024.jpg">
+            <img src="https://www.bitesofberi.com/wp-content/uploads/2021/08/chicken-yaki-udon-1-768x1024.jpg" alt="My lunch for today">
+            </a>
+
+            <!--Example 3: Width and Height Attributes-->
+            <h2>Example 3: Preset Width and Height</h2>
+            <p>This example shows how to set the width and height attribute of inserted photos using a width and height attributes.</p>
+            <img width="300" height="400" src="breakfast.jpg" alt="My breakfast for today">
+            <img width="400" height="400" src="https://www.bitesofberi.com/wp-content/uploads/2021/08/chicken-yaki-udon-1-768x1024.jpg" alt="My lunch for today">
+            
+            <!--Example 4: Image with Caption-->
+            <h2>Example 3: Insertion Image with Caption</h2>
+            <p>This example shows how to add a caption to an image using <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> tag.</p>
+            <figure>
+                <img width="300" height="400" src="breakfast.jpg" alt="My breakfast for today">
+                <figcaption>My breakfast for today is scrambled eggs on toast.</figcaption>
+            </figure>
+        </div>
+    </body>
+</html>
